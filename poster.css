@@ -30,6 +30,8 @@
         width: 270px;
         height: 89px;
     }
+    .box.word{
+      text-align: center;
   }
  a {
 color: blue;
