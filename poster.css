@@ -1,0 +1,41 @@
+
+  .container h1{
+    text-align: center;
+    /* border-bottom:2px solid lightblue;
+       border-top:2px solid lightblue; */
+       background-color: lightblue;
+       padding: 10px 0;
+  }
+  *{
+    text-transform: capitalize;
+  }
+  .box:not(:last-of-type){
+    border-bottom: 2px solid lightblue;
+    padding-bottom: 20px;
+  }
+  .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box img{
+    width: 310px;
+    height: 100px;
+  }
+  @media (max-width:600px){
+    .box{
+        flex-direction: column;
+      }
+      .box img {
+        width: 270px;
+        height: 89px;
+    }
+  }
+ a {
+color: blue;
+
+}
+a:hover{
+    color: green;
+    
+}
